@@ -91,8 +91,8 @@ importers:
         specifier: ^0.5.14
         version: 0.5.14(@ianvs/prettier-plugin-sort-imports@4.3.1(prettier@3.3.3))(prettier@3.3.3)
       shadcn-ui:
-        specifier: ^0.5.0
-        version: 0.5.0(typescript@5.6.3)
+        specifier: ^0.9.2
+        version: 0.9.2(typescript@5.6.3)
       tailwind-merge:
         specifier: ^2.5.3
         version: 2.5.3
@@ -2138,8 +2138,8 @@ packages:
     resolution: {integrity: sha512-7PGFlmtwsEADb0WYyvCMa1t+yke6daIG4Wirafur5kcf+MhUnPms1UeR0CKQdTZD81yESwMHbtn+TR+dMviakQ==}
     engines: {node: '>= 0.4'}
 
-  shadcn-ui@0.5.0:
-    resolution: {integrity: sha512-mlQmeEPtQJU5VRNjUeTLAH97yHhwcH1IRSVFJN2aKlBA1yOcip9ELTRYAH7Bj8OEiJhHT1OSpn5zlHEWxzhakg==}
+  shadcn-ui@0.9.2:
+    resolution: {integrity: sha512-tFb/rfWZvOS5fOGkR9NAtrlpcT/xw1UD9iWtj+Su4pUSpL1ihOqrHXphHyNofjdNdidi9DnJ6ZdXnoOwcud3NQ==}
     hasBin: true
 
   shebang-command@2.0.0:
@@ -4636,7 +4636,7 @@ snapshots:
       functions-have-names: 1.2.3
       has-property-descriptors: 1.0.2
 
-  shadcn-ui@0.5.0(typescript@5.6.3):
+  shadcn-ui@0.9.2(typescript@5.6.3):
     dependencies:
       '@antfu/ni': 0.21.12
       '@babel/core': 7.25.7
@@ -4647,6 +4647,7 @@ snapshots:
       cosmiconfig: 8.3.6(typescript@5.6.3)
       diff: 5.2.0
       execa: 7.2.0
+      fast-glob: 3.3.2
       fs-extra: 11.2.0
       https-proxy-agent: 6.2.1
       lodash.template: 4.5.0
