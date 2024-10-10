@@ -1,10 +1,10 @@
 /** @type {import("@ianvs/prettier-plugin-sort-imports").PrettierConfig} */
 module.exports = {
 	endOfLine: "lf",
-	useTabs: false,
+	useTabs: true,
 	semi: true,
 	singleQuote: false,
-	tabWidth: 2,
+	tabWidth: 4,
 	trailingComma: "es5",
 	printWidth: 80,
 	importOrder: [

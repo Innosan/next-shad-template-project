@@ -2,10 +2,10 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    typedRoutes: true,
-    // ppr: true,
-  },
+	experimental: {
+		// typedRoutes: true,
+		// ppr: true,
+	},
 };
 
 module.exports = nextConfig;
