@@ -17,7 +17,7 @@
 		"fix-all": "pnpm lint:fix && pnpm format"
 	},
 	"dependencies": {
-		"@radix-ui/react-slot": "^1.0.2",
+		"@radix-ui/react-slot": "^1.1.0",
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.0.0",
 		"eslint-plugin-prettier": "^5.1.2",
